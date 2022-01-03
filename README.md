@@ -9,6 +9,10 @@ Frontend - Built with Reactjs
 ```npm run postinstall``` 
 Note: This script will do a npm install for both the backend project and front end project. It can only be run from the main directory(i.e outside /backend and /frontend). 
 
+## :gear: Run
+Front End and Backend need to be run in two seperate terminals. 
+In one termainal navigate into /frontend and run ```npm start```
+In another terminal, navigate into /backend and run ```node api.js```
 
 ## :brain: Use Cases/Brainstorming
 -	User can view a search bar
@@ -42,6 +46,6 @@ It was important to me to understand visually what the user pathway was. This he
 - Fill in - where needed so user does not have to: This is an important improvement in my opinion. Users don't like adding in unnecessary characters, by adding in the dashes for them(with the option of them entering still there), it would deter frustration.
 - Add accessibility improvements: Using live region for screen readers, allowing for up down navigation, using role, aria live. And creating a more semantic environment. 
 - FEDEX tracking: I would like to add FedEx tracking to allow user to see their updates without having to leave the page. 
-
+- Better API Organization: Early on in the project I realized that seperating routes, controls and midware would be too much. I left routes as I had already complete it, and as the project expands this would be a good start. 
 ## :video_camera: Live Demonstration
 
