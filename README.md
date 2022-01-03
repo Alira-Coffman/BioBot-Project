@@ -1,2 +1,3 @@
-# BioBot-Project
-Created for Biobot
+# BioBot Coding Project
+## Installation
+```npm run postinstall```

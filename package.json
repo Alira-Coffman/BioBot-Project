@@ -1,0 +1,15 @@
+{
+  "name": "biobot-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install:backend" : "cd backend && npm install",
+    "install:frontend" : "cd frontend && npm install",
+    "postinstall" : "npm run install:backend && npm run install:frontend"
+
+  },
+  "author": "",
+  "license": "ISC"
+}

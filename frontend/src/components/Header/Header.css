@@ -1,0 +1,7 @@
+.header
+{
+    background-color: var(--biobot-light-blue);
+    display:inline-block; 
+    width: 100%;
+    color: white;
+}
