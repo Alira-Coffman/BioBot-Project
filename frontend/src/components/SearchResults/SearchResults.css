@@ -1,0 +1,27 @@
+.kitList
+{
+    background-color: var(--biobot-dark-blue);
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+  
+}
+select
+{
+    width: 100%;
+    overflow-y: auto;
+}
+option
+{
+    font-size: larger;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+option:hover{
+    color: var(--biobot-yellow);
+}
+option:checked{
+    background-color: var(--biobot-dark-blue);
+    color: var(--biobot-yellow);
+}
